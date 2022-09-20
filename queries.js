@@ -38,6 +38,7 @@ const createUser = (request, response) => {
     })
 }
 
+// Comment test
 const updateUser = (request, response) => {
     const id = parseInt(request.params.id);
     const { name, email } = request.body;
